@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Driven Animated Infographics Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>AI-Driven Animated Infographics Dashboard</h1>
+            <p>Real time insights powered by AI</p>
+        </header>
+
+        <section class="stats-grid">
+            <div class="stat-card">
+                <h3>Total Users</h3>
+                <p class="value">1810</p>
+                <span class="change positive">+18%</span>
+            </div>
+            <div class="stat-card">
+                <h3>AI Accuracy</h3>
+                <p class="value">87%</p>
+                <span class="change positive">Up</span>
+            </div>
+            <div class="stat-card">
+                <h3>Data Processed</h3>
+                <p class="value">7.9M</p>
+                <span class="change">Last 24h</span>
+            </div>
+            <div class="stat-card">
+                <h3>Sentiment Score</h3>
+                <p class="value">0.92</p>
+            </div>
+        </section>
+
+        <section class="charts-grid">
+            <div class="chart-card">
+                <h3>AI User Engagement Over Time</h3>
+                <canvas id="engagementBarChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <h3>Data Distribution</h3>
+                <p class="legend">Positive (Green) | Neutral (Yellow) | Negative (Red)</p>
+                <canvas id="distributionPieChart"></canvas>
+            </div>
+        </section>
+
+        <section class="insights-section">
+            <h2>Deep AI Insights & Analytics</h2>
+            <button class="explore-btn">Explore detailed graphs and predictions</button>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <h3>Prediction Accuracy</h3>
+                    <p class="value">88%</p>
+                    <span>AI Model Update</span>
+                </div>
+                <div class="insight-card">
+                    <h3>Trend Forecast</h3>
+                    <p class="value">Downward</p>
+                    <span>Next Quarter</span>
+                </div>
+                <div class="insight-card">
+                    <h3>Anomaly Detected</h3>
+                    <p class="value">2</p>
+                    <span>Flagged by AI</span>
+                </div>
+                <div class="insight-card">
+                    <h3>ROI Projection</h3>
+                    <p class="value">$1.0M</p>
+                    <span>Based on Data</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="additional-charts">
+            <div class="nav-tabs">
+                <span>Trend Line Chart</span>
+                <span>AI Predictions</span>
+                <span>Sentiment Breakdown</span>
+                <span>Green (Positive) | Red (Negative) | Blue (Neutral)</span>
+            </div>
+            <div class="charts-row">
+                <div class="chart-card">
+                    <h3>Trend Line Chart (AI Predictions)</h3>
+                    <canvas id="trendLineChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Sentiment Breakdown</h3>
+                    <p class="legend">Green (Positive) | Red (Negative) | Yellow (Neutral) | Blue (Anger)</p>
+                    <canvas id="sentimentDonutChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="infographic">
+            <h3>Infographic: AI Process Flow</h3>
+            <p>Equation for model optimization: y = kx + b where k=3.5 and b=0.5</p>
+            <p>AI Flow Efficiency: 90%</p>
+            <canvas id="radarChart"></canvas>
+        </section>
+
+        <div class="update-button">
+            <button id="updateInsights">Update Insights</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
